@@ -1,5 +1,6 @@
 # solar_scenario
-Python program to compute different scenarios for solar power.
+
+This is a Python program to compute different scenarios for solar power.
 
 This is a program I use to simulate different scenarios for installing
 residential solar power.  To use this program you'll need to get some
@@ -12,6 +13,15 @@ monthly data: this is the file you will need as input for this script.
 The python script then scales that scenario (linearly) and calculates
 your return on investment over a span of years (defaulting to 15
 years).
+
+# cost of money
+
+Most companies/organizations that are pushing solar want you to pay
+attention only to the possible cost savings compared to grid power,
+and consider 'break even' in a way that ignores any other uses you
+might have made of money spent on the solar system.  This program
+models that opportunity cost, leading to a 'break-even' point a bit
+further out than one might expect.
 
 This program does not take into account any federal or state kickback
 programs, though you can estimate their effects by adjusting the
@@ -47,3 +57,12 @@ yr        none      10.0kW       7.5kW       5.0kW       4.0kW       3.0kW      
 ```
 
 Note the ```+``` signs: these indicate years in which the solar system has come out ahead of the 'no solar/investment' scenario.
+
+
+# improvements
+
+Many improvements are possible.  It would be nice to model byzantine
+rate tiers more accurately.  I haven't bothered in this case because my own
+provider (PG&E) is about to completely restructure their rate tiers over the
+next couple of years (they have already gone from 5 to 4 tiers, and they plan
+to have only two tiers by 2017).
