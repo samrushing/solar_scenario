@@ -32,8 +32,8 @@ programs, though you can estimate their effects by adjusting the
 You'll need:
 
 1. The CSV file from http://pvwatts.nrel.gov/
-2. Edit the rate tier data near the top of the file.  The current
-   data is based on PG&E in San Jose, CA in May 2016.
+2. Edit ``tiers`` (near the top of the file).  The current data is based on PG&E in San Jose, CA in May 2016.
+3. Edit ``actual_usage`` (values are in kWh/month).  You can get this data either from your provider, or from your own power bills.
 
 # sample output
 
