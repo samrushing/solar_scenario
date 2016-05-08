@@ -27,6 +27,14 @@ This program does not take into account any federal or state kickback
 programs, though you can estimate their effects by adjusting the
 ```cpw``` (cost per watt) argument.
 
+# usage
+
+You'll need:
+
+1. The CSV file from http://pvwatts.nrel.gov/
+2. Edit the rate tier data near the top of the file.  The current
+   data is based on PG&E in San Jose, CA in May 2016.
+
 # sample output
 
 This example runs a 15-year simulation with a Cost Per Watt of $4 and a
