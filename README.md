@@ -46,3 +46,4 @@ yr        none      10.0kW       7.5kW       5.0kW       4.0kW       3.0kW      
 15     149675 +    159109 +    173960 +    178071 +    176063 +    171415 +    164912 +
 ```
 
+Note the ```+``` signs: these indicate years in which the solar system has come out ahead of the 'no solar/investment' scenario.
