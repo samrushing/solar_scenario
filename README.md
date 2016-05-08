@@ -1,4 +1,4 @@
-# solar_scenario
+# solar scenario calculator
 
 This is a Python program to compute different scenarios for solar power.
 
